@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+}
+
+.jeu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 440px;
+  margin: auto;
+}
+
+.score,
+.timer {
+  text-align: center;
+}
+
+.carte {
+  display: flex;
+  width: 100px;
+  height: 150px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: grey;
+  color: white;
+  font-size: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.carte.open {
+  background-color: green;
+}
+
+.actions {
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button#newgame {
+  background-color: blue;
+}
+
+button#solution {
+  background-color: red; 
+}
