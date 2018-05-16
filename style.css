@@ -18,11 +18,11 @@ h1 {
 .carte {
   display: flex;
   width: 100px;
-  height: 150px;
+  height: 140px;
   border: 1px solid grey;
   border-radius: 10px;
   margin-bottom: 10px;
-  background-color: grey;
+  background-color: orange;
   color: white;
   font-size: 48px;
   justify-content: center;
